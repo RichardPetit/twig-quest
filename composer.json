@@ -1,0 +1,13 @@
+{
+    "name": "wilder/twig",
+    "description": "quest twig",
+    "authors": [
+        {
+            "name": "Richard Petit",
+            "email": "richard-petit@live.fr"
+        }
+    ],
+    "require": {
+        "twig/twig": "v2.12"
+    }
+}

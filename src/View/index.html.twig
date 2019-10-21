@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Pretty Twigy {% endblock %}
+
+
+
+{% block content %}
+
+    <div class="row">
+        {% for product in products %}
+
+            <div class="card col-4" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Product name</h6>
+                    <p class="card-text">It's a very good product</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
